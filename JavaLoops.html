@@ -1,0 +1,23 @@
+<html>
+   <head>
+      <title>Using Loops</title>
+        <script language="JavaScript">
+           function assignment(limit)
+             {count=1;
+              while (count<=limit)
+                 {document.write(count+") Ouch!<br/>");
+                  count=count+1;
+                 }
+              }
+         </script>
+     </head>
+     <body>
+        <h1>Lizbeth Martinez</h1>
+        Enter amount of times to repeat Ouch!
+        <input type="text" id="amount" value=" "/>
+        <br/>
+        <input type="button" value="Press Here"
+           onClick="amt=document.getElementById('amount').value;
+                    assignment(amt);"/>
+     </body>
+ </html>
