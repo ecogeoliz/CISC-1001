@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Java Phrase</title>
+  <script language="JavaScript">
+  function assignment (message)
+  {count=1;
+    while (count<=10)
+       {document.write(count+") "+message+"<br/>");
+        count=count+1;
+       }
+   }
+</script>
+</head>
+<body>
+  <h1>Lizbeth Martinez</h1>
+  Enter a message to repeat 10 times <br/>
+<input type="text" Id="message" value=" "/>
+<br/>
+<input type="button" value="Press here"
+onClick="msg=document.getElementById('message').value;
+        assignment(msg);"/>
+</body>
+</html>
